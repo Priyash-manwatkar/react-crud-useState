@@ -104,12 +104,14 @@ function UserInfo() {
         onChange={(e)=>setName(e.target.value)}
         />
         Email:- <input 
-        type='text'
+        type='email'
         placeholder='enter here'
         value={email}
         onChange={(e)=>setEmail(e.target.value)}
         />
-          Content:- <input 
+          Content:- <textarea
+          rows={10}
+          cols={10} 
         type='text'
         placeholder='enter here'
         value={content}
