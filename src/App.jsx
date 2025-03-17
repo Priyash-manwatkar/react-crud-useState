@@ -4,15 +4,19 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import UserInfo from './components/UserInfo'
 import UesrInfoEffect from './components/UesrInfoEffect'
+import StopWatch from './components/StopWatch'
+import StopWatchTwo from './components/StopWatchTwo'
+
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
       {/* <UserInfo/> */}
       {/* <User/> */}
-      <UesrInfoEffect/>
+      {/* <UesrInfoEffect/> */}
+      {/* <StopWatch/> */}
+      <StopWatchTwo/>
     </>
   )
 }
